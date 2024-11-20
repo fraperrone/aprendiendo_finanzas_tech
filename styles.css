@@ -1,0 +1,194 @@
+/* font */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.titulo {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+    }
+/*  */
+
+
+.navbar {
+  background-color: #222; /* Fondo oscuro para simular un gráfico */
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  border-bottom: 2px solid transparent; /* Simula una línea debajo del enlace */
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #fff; /* La línea se vuelve blanca al pasar el ratón */
+}
+
+body {
+  background-image: url("Gemini_Generated_Image_k3b8qvk3b8qvk3b8.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#descripcion {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+  /* Agrega más estilos para la descripción */
+}
+
+/* form v2  section*/
+
+#contacto {
+  text-align: center;
+  margin: 50px auto;
+}
+
+form {
+  background-color: #f2f2f2; /* Cambia por el color de fondo deseado */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4caf50; /* Color de tu botón */
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#contacto h2 {
+  color: #fff; /* Blanco */
+  background-color: #333; /* Gris oscuro, ligeramente más claro que el fondo */
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: #333; /* Ajusta el color de fondo según tu diseño */
+  color: #fff; /* Color del texto blanco */
+  text-align: center;
+  padding: 10px;
+}
+
+/* imagen 2*/
+
+/* styles.css */
+nav {
+  background-color: #333; /* Color de fondo del nav bar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+
+
+nav img {
+  width: 150px; /* Ajusta el tamaño según tu preferencia */
+  height: auto;
+  border-radius: 50%;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+.cotizacion-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0; /* Color de fondo del contenedor */
+  text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.cotizacion-container h2 {
+  color: #333; /* Color del texto del h2 */
+}
+
+@media (max-width: 768px) {
+  .cotizacion-container {
+    width: 90%;
+  }
+
+  header {
+    text-align: center;
+  }
+  nav ul {
+    display: none; /* Oculta el menú en pantallas pequeñas */
+  }
+
+  
+}
+
+@media (max-width: 556px) {
+  header nav ul li{
+    display: none;
+  }
+
+  header nav a{
+    margin: 10px auto;
+  }
+  
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo Finanzas - Domina tus Finanzas Personales</title>
+    <meta name="description" content="Aprende a administrar tus finanzas personales con nuestros cursos interactivos y guías prácticas. ¡Domina el análisis fundamental y técnico!">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Navegación principal">
+            <a href="#">
+                <img src="Gemini_Generated_Logo.jpeg" alt="Logotipo de Aprendiendo Finanzas">
+            </a>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="descripcion">
+        <h1>Aprendiendo Finanzas</h1>
+        <h2>Descripción</h2>
+        <p>¡Bienvenido a tu guía para dominar tus finanzas personales! Aquí encontrarás información clara y concisa sobre cómo administrar tu dinero de manera efectiva, desde conceptos básicos hasta estrategias de inversión en la CNV. Ofrecemos cursos interactivos con múltiples opciones de respuesta para que aprendas a tu propio ritmo y refuerces tus conocimientos en análisis fundamental y técnico.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contáctame</h2>
+        <form action="https://formspree.io/f/mgvevjrg" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <section class="cotizacion-container" aria-live="polite">
+        <h2>Cotizaciones en tiempo real</h2>
+        <iframe src="https://dolarhoy.com/" width="100%" height="800" frameborder="0" scrolling="no"></iframe>
+    </section>
+    <footer>
+        <p>&copy; Todos los derechos reservados. Franco Perrone Rey.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
