@@ -81,38 +81,52 @@
 
 
     <section id="productos">
-      <h2>Productos en Venta</h2>
-      <div class="productos-container">
-        <div class="producto">
-          <img src="productos/remera 1.jpeg" alt="Remera 1" />
-          <h3>Remera 1</h3>
-          <p>Descripción de la Remera 1</p>
-          <p>Precio: $20</p>
-          <button>Añadir al carrito</button>
+    <h2>Productos en Venta</h2>
+    <div class="productos-container row">
+        <div class="col-md-4 producto" data-id="1" data-nombre="Remera 1" data-precio="20">
+            <img src="productos/remera 1.jpeg" alt="Remera 1">
+            <h3>Remera 1</h3>
+            <p>Descripción de la Remera 1</p>
+            <p>Precio: $20</p>
+            <button class="btn btn-primary añadir-carrito">Añadir al carrito</button>
         </div>
-        <div class="producto">
-          <img src="productos/remera 21.jpeg" alt="Remera 2" />
-          <h3>Remera 2</h3>
-          <p>Descripción de la Remera 2</p>
-          <p>Precio: $25</p>
-          <button>Añadir al carrito</button>
+        <div class="col-md-4 producto" data-id="2" data-nombre="Remera 2" data-precio="25">
+            <img src="productos/remera 21.jpeg" alt="Remera 2">
+            <h3>Remera 2</h3>
+            <p>Descripción de la Remera 2</p>
+            <p>Precio: $25</p>
+            <button class="btn btn-primary añadir-carrito">Añadir al carrito</button>
         </div>
-        <div class="producto">
-          <img src="productos/taza 1.jpeg" alt="Taza 1" />
-          <h3>Taza 1</h3>
-          <p>Descripción de la Taza 1</p>
-          <p>Precio: $15</p>
-          <button>Añadir al carrito</button>
+        <div class="col-md-4 producto" data-id="3" data-nombre="Taza 1" data-precio="15">
+            <img src="productos/taza 1.jpeg" alt="Taza 1">
+            <h3>Taza 1</h3>
+            <p>Descripción de la Taza 1</p>
+            <p>Precio: $15</p>
+            <button class="btn btn-primary añadir-carrito">Añadir al carrito</button>
         </div>
-        <div class="producto">
-          <img src="productos/taza 2.jpeg" alt="Taza 2" />
-          <h3>Taza 2</h3>
-          <p>Descripción de la Taza 2</p>
-          <p>Precio: $18</p>
-          <button>Añadir al carrito</button>
+        <div class="col-md-4 producto" data-id="4" data-nombre="Taza 2" data-precio="18">
+            <img src="productos/taza 2.jpeg" alt="Taza 2">
+            <h3>Taza 2</h3>
+            <p>Descripción de la Taza 2</p>
+            <p>Precio: $18</p>
+            <button class="btn btn-primary añadir-carrito">Añadir al carrito</button>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
+
+<section id="carrito" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Carrito de Compras</h2>
+        <div id="carrito-container" class="row">
+            <!-- Los productos en el carrito se generarán aquí -->
+        </div>
+        <button id="vaciar-carrito" class="btn btn-danger">Vaciar Carrito</button>
+    </div>
+</section>
+
+
+
+
     <section id="resenas">
       <h2>Reseñas de Nuestros Usuarios</h2>
       <div class="resenas-container">
