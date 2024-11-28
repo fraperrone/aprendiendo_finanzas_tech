@@ -181,7 +181,7 @@ nav a {
   
 }
 
-@media (max-width: 556px) {
+/* @media (max-width: 556px) {
   header nav ul li{
     display: none;
   }
@@ -190,7 +190,7 @@ nav a {
     margin: 10px auto;
   }
   
-}
+} */
 
 
 #productos {
