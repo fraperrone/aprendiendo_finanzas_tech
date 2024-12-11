@@ -20,45 +20,44 @@
   </head>
   <body>
     <header>
-  <nav class="navbar navbar-expand-md navbar-light">
-    <a class="navbar-brand d-none d-sm-block" href="#">
-      <!-- Logo visible solo en pantallas grandes -->
-      <img
-        src="Gemini_Generated_Logo.jpeg"
-        alt="Logotipo de Aprendiendo Finanzas"
-        width="30"
-        height="30"
-      />
-    </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"
-            >Inicio <span class="sr-only">(current)</span></a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Cursos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  
-</header>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand d-none d-sm-block" href="#">
+          <!-- Logo visible solo en pantallas grandes -->
+          <img
+            src="Gemini_Generated_Logo.jpeg"
+            alt="Logotipo de Aprendiendo Finanzas"
+            width="30"
+            height="30"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Inicio <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <section id="descripcion">
       <h1>Aprendiendo Finanzas</h1>
@@ -84,7 +83,22 @@
 
     <section id="productos" class="mt-5">
       <h2>Productos en Venta</h2>
+
       <div class="productos-container row">
+
+        <div
+          class="col-md-4 producto"
+          data-id="1"
+          data-nombre="Remera 1"
+          data-precio="20"
+        >
+          <img src="productos/remera 1.jpeg" alt="Remera 1" />
+          <h3>Remera 1</h3>
+          <p>Descripción breve</p>
+          <div class="descripcion-detallada" style="display: none"></div>
+          <button class="btn btn-primary mostrar-descripcion">Ver más</button>
+        </div>
+
         <div
           class="col-md-4 producto"
           data-id="1"
@@ -98,6 +112,8 @@
           <button class="btn btn-primary añadir-carrito">
             Añadir al carrito
           </button>
+          <div class="descripcion-detallada" style="display: none"></div>
+          <button class="btn btn-primary mostrar-descripcion">Ver más</button>
         </div>
         <div
           class="col-md-4 producto"
@@ -112,6 +128,8 @@
           <button class="btn btn-primary añadir-carrito">
             Añadir al carrito
           </button>
+          <div class="descripcion-detallada" style="display: none"></div>
+          <button class="btn btn-primary mostrar-descripcion">Ver más</button>
         </div>
         <div
           class="col-md-4 producto"
@@ -182,39 +200,51 @@
         </div>
       </div>
     </section>
-<section id="contacto" class="d-flex justify-content-center">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 col-lg-9">
-        <h2 class="text-center">Contáctenos</h2>
-        <form
-          id="contactForm"
-          action="https://formspree.io/f/mgvevjrg"
-          method="post"
-          class="p-3 border rounded"
-        >
-          <div class="form-group">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" class="form-control" />
+    <section id="contacto" class="d-flex justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-9">
+            <h2 class="text-center">Contáctenos</h2>
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/mgvevjrg"
+              method="post"
+              class="p-3 border rounded"
+            >
+              <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+              </div>
+            </form>
           </div>
-          <div class="form-group">
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" class="form-control" />
-          </div>
-          <div class="form-group">
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" class="form-control"></textarea>
-          </div>
-          <div class="text-center">
-            <input type="submit" value="Enviar" class="btn btn-primary" />
-          </div>
-        </form>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-
-
+    </section>
 
     <footer>
       <p>&copy; Designed by: Franco Perrone Rey.</p>

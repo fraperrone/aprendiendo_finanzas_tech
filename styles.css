@@ -1,16 +1,14 @@
 /* font */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-
 .titulo {
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-    }
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
 /*  */
-
 
 .navbar {
   background-color: #222; /* Fondo oscuro para simular un gráfico */
@@ -134,8 +132,6 @@ nav li {
   margin-left: 20px;
 }
 
-
-
 nav img {
   width: 150px; /* Ajusta el tamaño según tu preferencia */
   height: auto;
@@ -146,10 +142,6 @@ nav a {
   color: #fff;
   text-decoration: none;
 }
-
-
-
-
 
 .cotizacion-container {
   width: 100%;
@@ -177,8 +169,6 @@ nav a {
   nav ul {
     display: none; /* Oculta el menú en pantallas pequeñas */
   }
-
-  
 }
 
 /* @media (max-width: 556px) {
@@ -192,105 +182,104 @@ nav a {
   
 } */
 
-
 #productos {
-    padding: 20px;
-    background-color: #f9f9f9;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
 .productos-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .producto {
-    flex: 1 1 200px;
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #fff;
-    text-align: center;
-    max-width: 300px;
+  flex: 1 1 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  max-width: 300px;
 }
 
 .producto img {
-    max-width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 15px;
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 15px;
 }
 
 .producto h3 {
-    font-size: 1.2em;
-    margin: 10px 0;
+  font-size: 1.2em;
+  margin: 10px 0;
 }
 
 .producto p {
-    margin: 10px 0;
-    color: #555;
+  margin: 10px 0;
+  color: #555;
 }
 
 .producto button {
-    padding: 10px 15px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1px;
 }
 
 .producto button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 #resenas {
-    padding: 20px;
-    background-color: #f1f1f1;
+  padding: 20px;
+  background-color: #f1f1f1;
 }
 
 .resenas-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .resena {
-    flex: 1 1 200px;
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #fff;
-    max-width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  flex: 1 1 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .resena p {
-    font-style: italic;
-    margin-bottom: 10px;
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
 .resena h4 {
-    font-weight: bold;
-    margin-top: 0;
-    color: #333;
+  font-weight: bold;
+  margin-top: 0;
+  color: #333;
 }
 
-
 .navbar {
-    background-color: #333; /* Fondo oscuro */
+  background-color: #333; /* Fondo oscuro */
 }
 
 .navbar .navbar-nav .nav-link {
-    color: #fff; /* Texto claro */
+  color: #fff; /* Texto claro */
 }
 
 .navbar .navbar-brand,
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link:focus {
-    color: #fff; /* Asegurar que los enlaces cambien a un color claro */
+  color: #fff; /* Asegurar que los enlaces cambien a un color claro */
 }
